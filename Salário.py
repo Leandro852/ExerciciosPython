@@ -1,0 +1,13 @@
+v = int(input('Valor por hora: '))
+n = float(input('Número de horas trabalhadas no mês: '))
+sb = float(v*n)
+ir = float(sb*0.11)
+inss = float(sb*0.08)
+sind = float(sb*0.05)
+sl = float(sb - ir - inss - sind)
+
+print (f'O salário bruto é de R$ {sb}')
+print (f'O valor pago de imposto de renda é de R$ {ir}')
+print (f'O valor pago de Inss é de R$ {inss}')
+print (f'O valor pago ao sindicato é de R$ {sind}')
+print (f'O salário líquido será de R$ {sl}')

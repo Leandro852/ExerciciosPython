@@ -1,0 +1,5 @@
+P = float(input('preço: '))
+D = float (input('desconto: '))
+V = float(P*(D*0.01))
+Total = float(P-V)
+print (Total)
